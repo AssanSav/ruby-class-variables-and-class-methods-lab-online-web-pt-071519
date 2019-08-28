@@ -40,4 +40,10 @@ class Song
     end
     arr
   end
+  
+  def self.artist.count 
+    @@artists
+  end
+  
+  
 end

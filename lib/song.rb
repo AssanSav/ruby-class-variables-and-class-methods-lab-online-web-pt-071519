@@ -42,7 +42,6 @@ class Song
   end
   
   def self.artist_count 
-    @@artists
-    binding.pry
+    
   end
 end

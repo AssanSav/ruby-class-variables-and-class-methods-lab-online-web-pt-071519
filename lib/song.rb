@@ -33,7 +33,7 @@ class Song
     arr = {}
     @@genres.each do |genre| 
       if arr[genre] 
-        arr[genre] + 1 
+        arr[genre] += 1 
       else 
         arr[genre] = 1
       end

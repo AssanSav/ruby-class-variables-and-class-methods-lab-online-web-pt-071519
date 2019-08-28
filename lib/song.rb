@@ -40,4 +40,8 @@ class Song
     end
     arr
   end
+  
+  def self.artist_count 
+    
+  end
 end

@@ -3,7 +3,7 @@ require 'pry'
 class Song 
   attr_accessor :name, :artist, :genre 
   
-  @@count = []
+  @@count = 0
   @@artists = []
   @@genres = []
   @@count = []
@@ -12,7 +12,7 @@ class Song
     @name = name
     @artist = artist 
     @genre = genre
-    @@count << self
+    @@count += 1
   end
   
   def self.count 

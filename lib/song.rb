@@ -45,6 +45,4 @@ class Song
     @@artists
     binding.pry
   end
-  
-  
 end

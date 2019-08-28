@@ -40,10 +40,4 @@ class Song
     end
     arr
   end
-  
-  def self.artist.count 
-    @@artists.each do |artist|
-    binding.pry
-  end
-  end
 end

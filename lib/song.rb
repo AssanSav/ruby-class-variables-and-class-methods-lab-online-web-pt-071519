@@ -34,6 +34,5 @@ class Song
     @@genres.each do |genre| 
     binding.pry
   end
-    arr
   end
 end

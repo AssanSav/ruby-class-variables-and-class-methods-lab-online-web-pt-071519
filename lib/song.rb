@@ -37,6 +37,7 @@ class Song
     else 
       arr[genre] + 1 
     end 
+  end
     arr
   end
 end

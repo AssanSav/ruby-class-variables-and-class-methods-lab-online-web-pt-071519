@@ -42,7 +42,8 @@ class Song
   end
   
   def self.artist.count 
-    @@artists
+    @@artists.each do |artist|
     binding.pry
+  end
   end
 end
